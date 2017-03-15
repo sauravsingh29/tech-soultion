@@ -1,0 +1,9 @@
+---
+applications:
+  - name: tech-solution
+    memory: 512M
+    instances: 1
+    random-route: true
+    domain: cfapps.io
+    host: knapshak
+    path: target/tech-soultion-1.0.0-SNAPSHOT.jar

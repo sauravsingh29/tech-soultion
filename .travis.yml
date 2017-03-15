@@ -1,0 +1,16 @@
+---
+language: java
+jdk:
+  - oraclejdk8
+deploy:
+  edge: true
+  provider: cloudfoundry
+  api: https://api.run.pivotal.io
+  username: saurav.a.singh@capgemini.com
+  password:
+    secure: Ph6eiEwzo56ixp2SYRDY3Ab+ZIyrVUMldi4+qDWLl+eJgH1lC3WXdNl/VYFuQAf/aEmeBuYlBSwhBaTH8bE+PGAzyozBWIarKw2g2CpFryNTgzjWUwgWvWD9G8i78GF0U8PhSJvTwcUXJVx0SnXg2dJTODBEMQkk06Ht8J5BUdRaElWN5SghRrvlBijX21FSh37oO77lhoYAwGdpDW95FdD026BC2K6fVyi6TzAuaSM67JcbM260FxjtD4su2CiALCP6aLPM3MhBzF6LWF+DMRtqm8qIVxc3RRhjht5PAueukooH86XZF1lmteMubR9CNdqNTpV41pOwU4TIpSNo84BdmGvnSec6yOJtlH6E0szgL097R4AlozVb5tev8if5z/+PkQ2t5dHtHNR7B7eoO2T1q7OY9O/e3Iz5MuRJIyfhs3O2fZ/Euc5ywtfs0rbek5gPd6fdY/Dv+x9itNNxY3THdMY0n4fZ7n0D3SPV6G46xCLDk1nyLHuTpbvP3ygZelTzQTIeFbuCTv92PDN2vI/EiTBT5qQmDAqXdRSA5E1grVxvsYDoCZgb7/JgFXf6E1EP9MilNoSWAbZdOwdPoP0DYz6+nhspqcQypb33+igN/SgW7TbuPYgaA2xI6NBBBRWNZvhONc12N1xL7T4eQ9R3EJ/BLKoP/i6g2pYI/gw=
+  organization: reddevils
+  space: development
+  manifest: manifest.yml
+  on:
+    repo: sauravsingh29/tech-soultion
